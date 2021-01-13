@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="334.393329">
+    <testcase classname="Opentable Explore Validations" name="Opentable search positive scenarios" time="51.01135">
+        <system-out>
+            <![CDATA[Given Open chrome browser and enter url.....................................passed
+When Enter location  in search criteria.....................................passed
+Then Click on search button.................................................passed
+Then verify hotel for location..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Opentable Explore Validations" name="Opentable search1 positive scenarios" time="45.226338">
+        <system-out>
+            <![CDATA[Given Open chrome browser and enter url.....................................passed
+When Enter restaurant  in search criteria...................................passed
+Then Click on search button.................................................passed
+Then verify restaurant for name.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Opentable Explore Validations" name="Opentable search2 positive scenarios" time="42.027819">
+        <system-out>
+            <![CDATA[Given Open chrome browser and enter url.....................................passed
+When Enter cuisine in search criteria.......................................passed
+Then Click on search button.................................................passed
+Then verify cuisine.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Register Functionality" name="Unsuccessful registration due to invalid data entered in the fields" time="40.924292">
+        <system-out>
+            <![CDATA[Given the application browser is launched...................................passed
+And the Open Table homepage is opened.......................................passed
+When user clicks Sign up button.............................................passed
+And user enters invalid data in any of the required fields..................passed
+And user clicks on create account button....................................passed
+Then error message is displayed.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="OpenTable Details of restaurant" name="Verify details of restaurant" time="61.37802">
+        <system-out>
+            <![CDATA[Given Launch the application browser........................................passed
+And Open the webpage of Open Table..........................................passed
+And verify title of homepage................................................passed
+When clicks on dropdown for location........................................passed
+And choose location.........................................................passed
+And choose restaurant.......................................................passed
+Then click on Menu..........................................................passed
+And click on view full menu.................................................passed
+And click on Photos.........................................................passed
+And click on Reviews........................................................passed
+And print the current ratting...............................................passed
+And go to FAQ...............................................................passed
+And check parking details...................................................passed
+And check contact number....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Sign In Validation" name="Validating Account for login with valid credentials" time="35.171823">
+        <system-out>
+            <![CDATA[Given User click on Sign In button..........................................passed
+When User click on Email field..............................................passed
+And User Enter valid and registered mnc@gmail.com...........................passed
+And User Click on Password field............................................passed
+And User enter valid lkjhgfds...............................................passed
+And User click on Sign In1..................................................passed
+Then User navigates to Account page.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Table Booking" name="Successful table booking after Signing in" time="58.653687">
+        <system-out>
+            <![CDATA[Given User has navigated to the OpenTable website...........................passed
+And User has signed in with email and password password to the website......passed
+When User selects the date..................................................passed
+And User selects the time...................................................passed
+And User selects number of people...........................................passed
+And User enters the location,restaurant or cuisine..........................passed
+And User clicks on Find a table button......................................passed
+Then Available tables should be displayed to User...........................passed
+And User selects the time slot from available restaurant....................passed
+And User clicks on Complete the Reservation button..........................passed
+Then Table is Booked........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
